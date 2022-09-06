@@ -38,15 +38,15 @@ public class Asignatura {
         this.nombre = nombre;
         this.tipo = tipo;
     }
-
+    /*
     void cambiarDatos(int codigoInterno) {
         this.codigoInterno = codigoInterno;
     }
-
+    */
     void cambiarDatos(int codigoExterno) {
         this.codigoExterno = codigoExterno;
     }
-
+    
     void cambiarDatos(String nombre) {
         this.nombre = nombre;
     }
