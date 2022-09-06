@@ -12,11 +12,11 @@ public class Asignatura {
         this("Sin nombre",Tipo.FUNDAMENTACION);
         this(0);
     }
-
+/*
     Asignatura(int codigoInterno,Tipo tipo) {
         this("Sin nombre", codigoInterno, 0,tipo);
     }
-
+*/
     Asignatura(int codigoExterno,Tipo tipo) {
         this("Sin nombre", 0, codigoExterno,tipo);
     }
