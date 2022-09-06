@@ -17,7 +17,7 @@ public class Persona {
         totalPersonas++;
     }
     Persona() {
-        this.nombre = "";
+        this.nombre = "Sin nombre";
     }
     
     Persona(String nombre, long cedula) {
